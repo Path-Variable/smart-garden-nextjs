@@ -1,0 +1,67 @@
+{
+    "otherLang" : "Hrvatski",
+    "navbar": {
+        "project" : "Project",
+        "system" : "System",
+        "contact" : "Contact",
+        "team" : "Team"
+    },
+    "project": {
+        "supertitle" : "Path Variable LLC",
+        "title" : "Smart Garden",
+        "subtitle" : "Set up remote monitoring and controll of your garden or small agricultural production. Our product offers immediate control and long term analysis for improving your outputs.",
+        "control": {
+            "title" :"Monitoring and control in real time",
+            "text" : "A network of sensors and controllers uses the internet to allow constant contact with your field. Follow what is going on using your smart phone."
+        },
+        "upload" : {
+            "title" :"Storage of data for analysis and planning",
+            "text" : "Every measurement and every command is recorded and stored in the cloud for later review and scientific analysis."
+        },
+        "visualisation" : {
+            "title" :"Data visualisation",
+            "text" : "Using the latest open source solutions like grafana and prometheus we can visualise the recorded data in a wide variety of charts and graphs."
+        } ,
+        "security" : {
+            "title" : "Security and privacy",
+            "text" : "Your data and command interface is protected from malicious actors using industry standard encryption and authentication."
+        }
+    },
+    "system" : {
+        "supertitle" : "Local and remote",
+        "title" : "About the smart garden system",
+        "subtitle" : "The system consists of two subsystems - the local sensor cluster orcharstrated by a single board computer and the remote cloud that collects data and relays commands.",
+        "first" : "When you buy our produc we install sensors into your field or garden along with a single board computer that controlls them. This machine is usually a Raspberry Pi computer. The SBC connects locally with the sensors using Zigbee hubs. It opens a remote tunnel via internet with the controll server in the cloud.",
+        "remote" : {
+            "title" : "Remote controll i and storage",
+            "text" : "The linked local controller uses the remote server to allow for remote controll and monitoring while storing all collected data and actions in a safe place."
+        },
+        "encryption" : {
+            "title" : "Encryption and authentication ",
+            "text" : "Access to your data and controll interace is allowed only to authorized personnel. All changes made are linked to the user account that initiated them."
+        }, 
+        "longterm" : {"title" : "Long term analysis and insights", "text" : "All measured sensor values and actions taken are recorded into a data base in the cloud. The data are available to you at any moment and you can easily forward them to an export you have authorized to analyze them."},
+        "second" : "The Zigbee wireless protocol allows communication between the sensor and the local controller at a low rate of energy consumption. This means that a senzor can operate for months using a small battery.",
+        "heading" : "Manage your garden or field in a simple, easy way",
+        "third" : "By installing our smart garden system you will reduce the need for constant inspection of your garden, nursery or field. Electronic sensors will monitor your plants and notify about problems that require your immediate attention."
+    },
+    "team" : {
+        "title" : "Meet the project team",
+        "subtitle" : "This section will be expanded in the coming months as we add new members.",
+        "ivan": {"role" : "Project Founder / owner"}
+    },
+
+    "contact" : {
+        "supertitle" : "Project \"Smart Garden\"",
+        "title" : "Contact",
+        "line_1" : "Path Variable d.o.o.",
+        "line_2":"OIB: 76935894745",
+        "line_3":"Nova Cesta 18a",
+        "line_4":"23247 Vinjerac",
+        "line_5":"Croatia",
+        "line_6":"Tel. +385 99 254 9702",
+        "line_7":"E-mail: info@path-variable.com",
+        "video" : "Book a video call"
+    }
+    
+}

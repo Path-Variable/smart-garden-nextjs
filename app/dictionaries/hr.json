@@ -1,0 +1,70 @@
+{
+    "otherLang" : "English",
+    "navbar": {
+        "project" : "Projekt",
+        "system" : "Sustav",
+        "contact" : "Kontakt",
+        "team" : "Ekipa"
+    },
+    "project": {
+        "supertitle" : "Path Variable d.o.o.",
+        "title" : "Pametni Vrt",
+        "subtitle" : "Postavite daljinski nadzor i kontrolu u vaš vrt ili OPG proizvodnju. Naš proizvod pruža trenutnu kontrolu i dubinska analizu za poboljšanje proizvodnje.",
+        "control": {
+            "title" :"Uvid i kontrola u stvarnom vremenu",
+            "text" : "Mreža senzora i upravljača pomoću internet veze vama omogućuje stalni kontakt sa vašim poljem. Pratite što se događa putem vašeg pametnog telefona."
+        },
+        "upload" : {
+            "title" :"Skladištenje podataka za analizu i planiranje",
+            "text" : "Svako mjerenje i svaka upravljačka akcija zapisana je i spremljena na cloud za kasniji pregled i znanstvenu analizu."
+        },
+        "visualisation" : {
+            "title" :"Vizualizacija podataka",
+            "text" : "Korištenjem suvremenih open source rješenja poput grafane i prometheus-a omogućujemo vizualizaciju podataka u raznovrsnim vrstama grafova."
+        } ,
+        "security" : {
+            "title" : "Sigurnost i privatnost",
+            "text" : "Vaši podatci i upravljači su zaštićeni od zloćudnih aktera korištenjem suvremene enkripcije i autentifikacije."
+        }
+    },
+    "system" : {
+        "supertitle" : "Lokalno i daljinsko",
+        "title" : "O sustavu pametnog vrta",
+        "subtitle" : "Sustav se sastoji od dva podsustava - lokalno postavljeni senzori i upravljači te udaljeni cloud server koji prikuplja podatke i proslijeđuje upute.",
+        "first" : "Kupovinom našeg proizvoda u vaš vrt ili polje ugrađuju se senzori i upravljački uređaj. Upravljački uređaj je tzv. računalo od jedne ploče i najčešće se radi o nekom od modela iz ponude tvrtke Raspberry Pi. Upravljač se lokalno povezuje sa senzorima dok putem internet veze otvara tunel sa udaljenim upravljačkim serverom u oblaku.",
+        "remote" : {
+            "title" : "Daljinska kontrola i spremište",
+            "text" : "Povezani upravljački uređaj putem udaljenog servera vama otvara mogućnost upravljanja i motrenja uzgoja i tamo pohranjuje sve izmjerene vrijednosti."
+        },
+        "encryption" : {
+            "title" : "Enkripcija i autentifikacija",
+            "text" : "Pristup vašim podatcima i upravljačkom sučelju je dostupan samo ovlaštenim osobama. Sve promjene su popisane prema korsiniku koji ih je napravio."
+        }, 
+        "longterm" : {
+            "title" : "Dugoročna analiza i uvid", 
+            "text" : "Svi izmjereni podatci i načinjene promjene spremljene su u bazu podataka unutar oblaka. Podatci su dostupni u bilokojem trenutku vama ili stručnjaku kojeg ste ovlastili za pregled."
+        },
+        "second" : "Tehnologija Zigbee omogućuje komunikaciju između senzora i postavljenog upravljačkog uređaja uz nisku potrošnju električne energije. Sa jednom baterijom malog kapacitetata senzori mogu raditi mjesecima.",
+        "heading" : "Jednostavno upravljate svojim vrtom ili poljem",
+        "third" : "Ugradnjom sustava pametnog vrta smanjiti ćete potrebu za stalnim obilaskom svojeg vrta, sadnica ili polja. Elektronički senzori motriti će na vaše biljke i obavještavati vas o problemima koji zahtjevaju vašu pozornost."
+    },
+    "team" : {
+        "title" : "Upoznajte projektnu ekipu",
+        "subtitle" : "Ova sekcija biti će proširena u nadolazećim mjesecima kako nam se pridruže novi članovi.",
+        "ivan": {"role" : "Osnivač projekta / vlasnik"}
+    },
+
+    "contact" : {
+        "supertitle" : "Projekt \"Pametni Vrt\"",
+        "title" : "Kontakt",
+        "line_1" : "Path Variable d.o.o.",
+        "line_2":"OIB: 76935894745",
+        "line_3":"Nova Cesta 18a",
+        "line_4":"23247 Vinjerac",
+        "line_5":"Hrvatska",
+        "line_6":"Tel. 099 254 9702",
+        "line_7":"E-mail: info@path-variable.com",
+        "video" : "Zakažite video sastanak"
+    }
+    
+}
