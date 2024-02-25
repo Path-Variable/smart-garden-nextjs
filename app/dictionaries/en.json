@@ -32,7 +32,7 @@
         "supertitle" : "Local and remote",
         "title" : "About the smart garden system",
         "subtitle" : "The system consists of two subsystems - the local sensor cluster orcharstrated by a single board computer and the remote cloud that collects data and relays commands.",
-        "first" : "When you buy our produc we install sensors into your field or garden along with a single board computer that controlls them. This machine is usually a Raspberry Pi computer. The SBC connects locally with the sensors using Zigbee hubs. It opens a remote tunnel via internet with the controll server in the cloud.",
+        "first" : "When you buy our product we install sensors into your field or garden along with a single board computer that controlls them. This machine is usually a Raspberry Pi computer. The SBC connects locally with the sensors using Zigbee hubs. It opens a remote tunnel via internet with the controll server in the cloud.",
         "remote" : {
             "title" : "Remote controll i and storage",
             "text" : "The linked local controller uses the remote server to allow for remote controll and monitoring while storing all collected data and actions in a safe place."
