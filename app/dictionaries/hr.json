@@ -28,6 +28,7 @@
         }
     },
     "system" : {
+        "diagram" : "/images/sg_system.png",
         "supertitle" : "Lokalno i daljinsko",
         "title" : "O sustavu pametnog vrta",
         "subtitle" : "Sustav se sastoji od dva podsustava - lokalno postavljeni senzori i upravljači te udaljeni cloud server koji prikuplja podatke i proslijeđuje upute.",

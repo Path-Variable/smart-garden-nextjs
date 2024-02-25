@@ -28,6 +28,7 @@
         }
     },
     "system" : {
+        "diagram" : "/images/sg_system_en.png",
         "supertitle" : "Local and remote",
         "title" : "About the smart garden system",
         "subtitle" : "The system consists of two subsystems - the local sensor cluster orcharstrated by a single board computer and the remote cloud that collects data and relays commands.",

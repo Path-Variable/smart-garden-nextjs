@@ -36,8 +36,6 @@ export function middleware(request: NextRequest) {
     (locale : string) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  console.log("path locale is " + pathLocale)
-
   if (pathLocale) {
 
 
@@ -65,5 +63,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: "/((?!api|_next/static|_next/image|img/|favicon.ico).*)",
+  matcher: "/((?!api|_next/static|_next/image|images|img/|favicon.ico).*)",
 };
