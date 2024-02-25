@@ -12,8 +12,8 @@ export default function Navbar() {
   const params = useParams<{ locale: string; }>()
     const dictionary = getDictionary(params.locale);
     const langLink = params.locale === "en" ? "/hr/" : "/en/";
-    let paths = usePathname().split("/");
-    const page = paths.length > 2 ? paths[2] : paths.length > 1 ? paths[1] : "/";
+    let paths = usePathname().replace(params.locale, "").split("/").filter( p => p !== "");
+    const page = paths.length > 0 ? paths[0] : "/";
     
     return (
     <nav className="bg-gray-800">
