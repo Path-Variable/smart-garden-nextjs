@@ -37,8 +37,6 @@ export function middleware(request: NextRequest) {
   );
 
   if (pathLocale) {
-
-
     nextLocale = pathLocale;
   } else {
     const isFirstVisit = !request.cookies.has("NEXT_LOCALE");
