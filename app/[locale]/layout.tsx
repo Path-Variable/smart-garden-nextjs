@@ -35,6 +35,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Project Smart Garden" />
         <meta name="twitter:description" content="Learn about our IoT project for automating agriculture" />
         <meta name="twitter:image" content={previewImage} />
+        <time dateTime="2024-02-20">February 2024</time>
       </head>
       <body className={inter.className}>
         <Navbar />
