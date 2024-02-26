@@ -27,6 +27,7 @@ export default function RootLayout({
         <meta property="og:image:alt" content="Project Smart Garden" />
         <meta property="og:image:type" content="image/png" />
         <meta name="publish_date" property="og:publish_date" content="2024-02-20T00:00:00+0100"/>
+        <meta name="description" property="og:description" content="A green, digital solution for automating small scale agricultural production"></meta>
         <meta property="og:image:width" content="1914" />
         <meta property="og:image:height" content="959" />
         <meta name="author" content="Path Variable"/>
