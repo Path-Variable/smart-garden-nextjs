@@ -20,7 +20,8 @@ export default function RootLayout({
     const headersList = headers();
     const proto = headersList.get("X-Forwarded-Proto");
     const host = headersList.get("host");
-    const path = headersList.get("next-url") || "";
+    let path = headersList.get("next-url");
+    path = path ? path : "";
     const locale = getLocale(path);
     const page = getPage(path);
     const imageName = `${page}_${locale}.png`;
