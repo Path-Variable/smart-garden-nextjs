@@ -51,11 +51,14 @@ export function middleware(request: NextRequest) {
         ? NextResponse.rewrite(new URL(newPath, request.url))
         : NextResponse.redirect(new URL(newPath, request.url));
     nextLocale = locale;
+    
   }
 
   if (!response) response = NextResponse.next();
 
   if (nextLocale) response.cookies.set("NEXT_LOCALE", nextLocale);
+
+  response.headers.set("x-url", request.url);
 
   return response;
 }
