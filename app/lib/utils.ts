@@ -11,9 +11,7 @@ export function getLocale(path : string) {
 }
 
 export function getPage(path : string) {
-    console.log(path);
     const slashes = path?.split("/").length;
-    console.log(path.split("/"));
     if (slashes > 4) {
         return path.split("/")[4];
     }
