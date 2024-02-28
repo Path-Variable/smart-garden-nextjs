@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "../ui/components/navbar";
 import { headers } from 'next/headers';
+import { getLocale, getPage } from "@/app/lib/utils";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,7 +20,11 @@ export default function RootLayout({
     const headersList = headers();
     const proto = headersList.get("X-Forwarded-Proto");
     const host = headersList.get("host");
-    const previewImage = `${proto}://${host}/images/sg_site_preview_en.png`;
+    const path = headersList.get("next-url") || "";
+    const locale = getLocale(path);
+    const page = getPage(path);
+    const imageName = `${page}_${locale}.png`;
+    const previewImage = `${proto}://${host}/images/${imageName}`;
   return (
     <html>
       <head>
@@ -36,7 +41,6 @@ export default function RootLayout({
         <meta name="twitter:title" content="Project Smart Garden" />
         <meta name="twitter:description" content="Learn about our IoT project for automating agriculture" />
         <meta name="twitter:image" content={previewImage} />
-        <time dateTime="2024-02-20">February 2024</time>
       </head>
       <body className={inter.className}>
         <Navbar />
