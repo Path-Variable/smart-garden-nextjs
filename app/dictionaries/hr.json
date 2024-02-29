@@ -51,8 +51,9 @@
     },
     "team" : {
         "title" : "Upoznajte projektnu ekipu",
-        "subtitle" : "Ova sekcija biti će proširena u nadolazećim mjesecima kako nam se pridruže novi članovi.",
-        "ivan": {"role" : "Osnivač projekta / vlasnik"}
+        "subtitle" : "Projekt trenutačno ima dva stalna člana. Osnivač Ivan je razvojni inženjer sa dugogodišnjim iskustvom u razvoju web aplikacija. Konzultatnt Lukasz ima bogato iskustvo rada sa IoT i komunikacijskim projektima.",
+        "ivan": {"role" : "Osnivač projekta / vlasnik"},
+        "lukasz": {"role" : "Projektni menadžer / Konzultant za poslovni razvoj"}
     },
 
     "contact" : {

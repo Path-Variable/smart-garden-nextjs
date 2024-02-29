@@ -26,6 +26,17 @@ export default function Team() {
                     </div>
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/lukaszdec/">
+                    <div className="flex items-center gap-x-6">
+                        <img className="h-16 w-16 rounded-full" src="https://media.licdn.com/dms/image/D4D35AQGIUQfE1Dd2Yg/profile-framedphoto-shrink_200_200/0/1673597583885?e=1709830800&v=beta&t=pOVrHePDWwa6h53VQziJrgLi0715h0qmPlUXYG3-8_o" alt=""/>
+                        <div>
+                        <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">Lukasz Dec</h3>
+                        <p className="text-sm font-semibold leading-6 text-green-600">{dictionary.team.lukasz.role}</p>
+                        </div>
+                    </div>
+                    </a>
+                </li>
                 </ul>
             </div>
             </div>

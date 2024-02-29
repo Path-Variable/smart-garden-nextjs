@@ -48,8 +48,9 @@
     },
     "team" : {
         "title" : "Meet the project team",
-        "subtitle" : "This section will be expanded in the coming months as we add new members.",
-        "ivan": {"role" : "Project Founder / owner"}
+        "subtitle" : "The project team currently has two permanent members. The founder Ivan is a Software Engineer with many years of experience building applications for the web. Lukasz is a consultant with a strong background in IoT and communications projects.",
+        "ivan": {"role" : "Project Founder / owner"},
+        "lukasz": {"role" : "Project Manager / Business Development Consultant"}
     },
 
     "contact" : {
