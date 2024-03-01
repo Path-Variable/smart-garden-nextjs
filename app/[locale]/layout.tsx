@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../ui/components/navbar";
 import { headers } from 'next/headers';
 import { getLocale, getPage } from "@/app/lib/utils";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -44,6 +45,7 @@ export default function RootLayout({
         <meta name="twitter:image" content={previewImage} />
       </head>
       <body className={inter.className}>
+        <Analytics/>
         <Navbar />
         {children}
       </body>
