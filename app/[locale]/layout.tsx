@@ -4,7 +4,8 @@ import "./globals.css";
 import Navbar from "../ui/components/navbar";
 import { headers } from 'next/headers';
 import { getLocale, getPage } from "@/app/lib/utils";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -46,6 +47,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Analytics/>
+        <SpeedInsights/>
         <Navbar />
         {children}
       </body>
