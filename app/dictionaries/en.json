@@ -9,22 +9,22 @@
     "project": {
         "supertitle" : "Path Variable LLC",
         "title" : "Smart Garden",
-        "subtitle" : "Set up remote monitoring and controll of your garden or small agricultural production. Our product offers immediate control and long term analysis for improving your outputs.",
+        "subtitle" : "Easily monitor and control your garden or small farm remotely. Our product provides instant control and in-depth analysis to enhance your garden's productivity.",
         "control": {
             "title" :"Monitoring and control in real time",
-            "text" : "A network of sensors and controllers uses the internet to allow constant contact with your field. Follow what is going on using your smart phone."
+            "text" : "Use our internet-connected sensors and controllers to stay constantly updated about your garden's conditions. Track your garden's status in real-time through our smartphone app."
         },
         "upload" : {
-            "title" :"Storage of data for analysis and planning",
+            "title" :"All garden data is stored securely for your future analysis and planning needs.",
             "text" : "Every measurement and every command is recorded and stored in the cloud for later review and scientific analysis."
         },
         "visualisation" : {
             "title" :"Data visualisation",
-            "text" : "Using the latest open source solutions like grafana and prometheus we can visualise the recorded data in a wide variety of charts and graphs."
+            "text" : "We use advanced tools like Grafana and Prometheus to create easy-to-understand charts and graphs of your garden's data."
         } ,
         "security" : {
             "title" : "Security and privacy",
-            "text" : "Your data and command interface is protected from malicious actors using industry standard encryption and authentication."
+            "text" : "We ensure your data and control systems are safe from unauthorized access with top-level encryption and security measures."
         }
     },
     "system" : {
